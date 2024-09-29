@@ -1,0 +1,26 @@
+{
+  "packName": "ValineExpart1.12.2",
+  "packId": "valine_expart",
+  "version": "1.0.0",
+  "debug": true,
+  "classes": {
+    "preInit": []
+  },
+  "loaders": {
+    "preInit": [
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/"
+    ],
+    "init":[
+      "init/"
+    ]
+  },
+  "packmode": {
+    "values": [],
+    "default": "",
+    "_comment": "this is a comment",
+    "integratePackmodeMod": false
+  }
+}

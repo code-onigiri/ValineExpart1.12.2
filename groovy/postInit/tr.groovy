@@ -1,0 +1,25 @@
+//精錬鉄インゴットの難化
+furnace.removeByInput(item("minecraft:iron_ingot"))
+mods.thermalexpansion.furnace.removeByOutput(item("techreborn:ingot",19))
+mods.thermalexpansion.smelter.removeByOutput(item("techreborn:ingot",19))
+mods.immersiveengineering.arc_furnace.recipeBuilder()
+    .output(item("techreborn:ingot",19))
+    .time(100)
+    .mainInput(item("minecraft:iron_ingot"))
+    .energyPerTick(1000)
+    .alloying()
+    .register()
+
+//電子基板の難化
+crafting.removeByOutput(item("techreborn:part",29))
+crafting.addShaped(item("techreborn:part",29),[
+    [item("techreborn:cable",5),item("pneumaticcraft:printed_circuit_board"),item("techreborn:cable",5)],
+    [item("mekanism:controlcircuit",0),item("techreborn:ingot",19),item("mekanism:controlcircuit",0)],
+    [item("techreborn:cable",5),item("pneumaticcraft:printed_circuit_board"),item("techreborn:cable",5)]
+])
+crafting.removeByOutput(item("techreborn:part",30))
+crafting.addShaped(item("techreborn:part",30),[
+    [item("minecraft:redstone"),item("minecraft:glowstone_dust"),ore("dustDiamond")],
+    [ore("gemLapis"),item("techreborn:part",29),ore("gemLapis")],
+    [item("minecraft:redstone"),item("minecraft:glowstone_dust"),ore("dustDiamond")]
+])

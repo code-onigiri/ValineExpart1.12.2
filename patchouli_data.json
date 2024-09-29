@@ -1,0 +1,36 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "pneumaticcraft:book": {
+      "viewedEntries": [
+        "pneumaticcraft:base_concepts/basic_materials",
+        "pneumaticcraft:base_concepts/getting_started",
+        "pneumaticcraft:base_concepts/entity_filter",
+        "pneumaticcraft:components/compressed_iron_block"
+      ],
+      "bookmarks": [],
+      "history": [
+        "pneumaticcraft:components/compressed_iron_block",
+        "pneumaticcraft:base_concepts/entity_filter",
+        "pneumaticcraft:base_concepts/getting_started",
+        "pneumaticcraft:base_concepts/basic_materials"
+      ],
+      "completedManualQuests": []
+    },
+    "deepmoblearning:book": {
+      "viewedEntries": [
+        "deepmoblearning:0_introduction/0_introduction",
+        "deepmoblearning:0_introduction/2_data_models",
+        "deepmoblearning:0_introduction/1_data"
+      ],
+      "bookmarks": [],
+      "history": [
+        "deepmoblearning:0_introduction/1_data",
+        "deepmoblearning:0_introduction/2_data_models",
+        "deepmoblearning:0_introduction/0_introduction"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
